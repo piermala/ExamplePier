@@ -6,12 +6,12 @@ import java.util.TreeMap;
 public class Rubrica {
 
 	private Map<String,Voce> listaVoci = new TreeMap<String,Voce>();
-	//
+	// non vedo le tue modifiche
 	//	
 	public Map<String,Voce> getListaVoci() {
 		return listaVoci;
-	}
-			//Modifica definitiva
+	}	
+	int a; //Modifica definitiva
 	public void setListaVoci(Map<String,Voce> listaVoci) {
 		this.listaVoci = listaVoci;
 	}
